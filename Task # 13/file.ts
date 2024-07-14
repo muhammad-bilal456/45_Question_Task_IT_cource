@@ -1,17 +1,23 @@
 // Exercise no 13..
-let Transportaion: string[] = [
-  "Heavy-Bikes",
+//Your Own Array: Think of your favorite mode of transportation, 
+//such as a motorcycle or a car, and make a list that stores several examples.
+// Use your list to print a series of statements about these items,
+// such as “I would like to own a Honda motorcycle.”
+
+
+let transportaion: string[] = [
+  "Heavy-Bike",
   "Ferrari",
   "Revo",
   "Aeroplane",
   "Ship",
 ];
-//acessing each index of array
-console.log(`"I would like to Own a" : ${Transportaion[0]}`);
-console.log(`"I would like to Own a" : ${Transportaion[1]}`);
-console.log(`"I would like to Own a" : ${Transportaion[2]}`);
-console.log(`"I would like to Own a" : ${Transportaion[3]}`);
-console.log(`"I would like to Own a" : ${Transportaion[4]}`);
+// printing through for loop
+for(let i=0; i<transportaion.length; i++){
+
+  console.log(`\nI would like to own a ${transportaion[i]}`);
+  
+}
 
 
 
